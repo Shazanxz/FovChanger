@@ -1,4 +1,4 @@
-# FOV Change
+# FOV Changer
 
 A Lua script for GTA SA that gives you full control over your Field of View (FOV) adjust it in real time through a sleek ImGui interface.
 

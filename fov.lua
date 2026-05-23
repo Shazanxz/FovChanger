@@ -1,4 +1,4 @@
-script_name("FOV Change")
+script_name("FOV Changer")
 script_author("Shazanxz")
 
 local imgui = require 'imgui'
@@ -106,7 +106,7 @@ function imgui.OnDrawFrame()
     pushStyle()
 
     imgui.SetNextWindowSize(imgui.ImVec2(300, 130), imgui.Cond.FirstUseEver)
-    imgui.Begin("FOV Change", window, imgui.WindowFlags.NoResize)
+    imgui.Begin("FOV Changer", window, imgui.WindowFlags.NoResize)
 
     imgui.Spacing()
 
