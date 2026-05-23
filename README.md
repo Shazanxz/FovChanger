@@ -1,6 +1,6 @@
 # FOV Changer
 
-A Lua script for GTA SA that gives you full control over your Field of View (FOV) adjust it in real time through a sleek ImGui interface.
+A Lua script for SA-MP (San Andreas Multiplayer) that gives you full control over your Field of View (FOV) adjust it in real time through a sleek ImGui interface.
 
 ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
 ---
@@ -16,6 +16,7 @@ A Lua script for GTA SA that gives you full control over your Field of View (FOV
 
 ## Requirements
 
+- [SAMPFUNCS](https://www.mixmods.com.br/2019/02/sampfuncs-v5-4-1-final/)
 - [moonloader](https://www.mixmods.com.br/2020/10/moonloader/) (Lua scripting engine for GTA SA)
 - Lua libraries: `imgui`, `inicfg`, `encoding` (included with moonloader)
 
@@ -28,7 +29,7 @@ A Lua script for GTA SA that gives you full control over your Field of View (FOV
    ```
    GTA San Andreas/moonloader/
    ```
-3. Launch GTA SA. The script loads automatically.
+3. Launch GTA SA and SA-MP. The script loads automatically.
 
 ---
 
